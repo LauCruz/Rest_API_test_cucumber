@@ -1,0 +1,19 @@
+{
+  "data":[
+      {
+        "name":"qa",
+        "country": "mx",
+        "vaultToken": "***",
+        "description": "qa mexico"
+      },
+      {
+        "name":"fake",
+        "country": "es",
+        "vaultToken": "***",
+        "description": "desc",
+        "ldapUser": 34434,
+        "vaultUser": "sss",
+        "userGroup": "calif"
+      }
+  ]
+}

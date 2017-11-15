@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title":"project",
+  "description":"A project in AA",
+  "type":"object",
+  "properties": {
+    "data":{
+      "description": "Four required fields",
+      "type": "object",
+      "required": ["name", "country", "vaultToken"],
+      "properties":{
+        "name":{
+          "description":"Value of project",
+          "type": "string"
+        },
+        "country":{
+          "description": "Name of country",
+          "type": "string"
+        },
+        "vaultToken":{
+          "description": "Description of Vault Token",
+          "type": "string"
+        },
+        "description":{
+          "description": "Description of project",
+          "type":"string"
+        }
+      }
+    }
+  }
+}

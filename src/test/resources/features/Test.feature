@@ -7,7 +7,7 @@ Feature: Test rest api
     Given A connection to "http://httpbin.org/ip"
     When  User makes a get request
     Then  The status response should be 200
-    And the JSON body response should be "Valid"
+    And the JSON body response should be "Valid!"
 
 
 

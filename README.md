@@ -5,9 +5,9 @@
 - For now this project tests GET responses of projects in Automation API:
  a 200 response code, validate JSON body response against a schema of a project and also of several projects.
 
-Requirements: JAVA (>=8), mvn(3.3.9) and just  Intellij(2017.2) is optional.
+- Requirements: JAVA (>=8), mvn(3.3.9) and just  Intellij(2017.2) is optional.
 
- Steps:
+ - Steps:
 
  1 Do a fork of the project
 
@@ -25,3 +25,9 @@ mvn verify
 
 ```
   3.1 If you are using Intellij, just open the project cloned and then click on the top bar 'Run'.
+
+  - References:
+
+  [tutorial of validate json against schema](https://wilddiary.com/validate-json-against-schema-in-java/)
+
+  [JSON Schema Validation: A Vocabulary for Structural Validation of JSON](http://json-schema.org/latest/json-schema-validation.html#rfc.section.4.1)

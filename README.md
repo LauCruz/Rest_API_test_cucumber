@@ -10,7 +10,9 @@ Requirements: mvn(3.3.9) and  Intellij (optional) installed.
  Steps:
 
  1 Do a fork of the project
+
  2 Clone the project in your local
+
  3 If you are using maven, in the root of the project run :
 
 ```

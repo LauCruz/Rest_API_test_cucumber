@@ -5,7 +5,7 @@
 - For now this project tests GET responses of projects in Automation API:
  a 200 response code, validate JSON body response against a schema of a project and also of several projects.
 
-Requirements: mvn(3.3.9) and  Intellij (optional) installed.
+Requirements: JAVA (>=8), mvn(3.3.9) and just  Intellij(2017.2) is optional.
 
  Steps:
 
@@ -13,10 +13,15 @@ Requirements: mvn(3.3.9) and  Intellij (optional) installed.
 
  2 Clone the project in your local
 
+ ```
+ git clone git@github.com:<user>/Rest_API_test_cucumber.git
+
+ ```
+
  3 If you are using maven, in the root of the project run :
 
 ```
 mvn verify
 
 ```
-  3.1 If you are using Intellij, just open the project cloned and then click on the top bar 'Run'. 
+  3.1 If you are using Intellij, just open the project cloned and then click on the top bar 'Run'.
